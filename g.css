@@ -163,4 +163,30 @@ margin-left:10%;
     color:white;
     cursor: pointer;
  }
+ #bs #welcome{
+     position: absolute;
+     margin-left: 8%;
+     color:#ff0000;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     font-size: 2em;
+     margin-top: 10px;
+     cursor: default;
+    animation-name:slideout;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    
+ }
+  @keyframes slideout {
+    from {
+      transform: translateX(1500px);
+    }
+  
+    to {
+      transform: translateX(-1500px);
+    }
+  }
+
+ 
  
