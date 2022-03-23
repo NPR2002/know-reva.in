@@ -179,7 +179,11 @@ margin-left:10%;
     animation-duration: 30s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
+  
     
+ }
+ #welocome{
+     overflow:hidden ;
  }
   @keyframes slideout {
     from {
