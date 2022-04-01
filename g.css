@@ -73,7 +73,7 @@ cursor:default;
     background-color: white;
     border-radius:30px;
     margin: 2%;
-    display: inline-flex;
+    display:flex;
     height:35.52em;
     transition:2s ease;
 opacity: 0.95;
@@ -86,7 +86,7 @@ margin-left:10%;
 }
 #forma{
     background-color: #95bfd4;
-    /* background-image:url(logo-icon.png); */
+    background-image:url(logo-icon.png);
     margin-top:5%;
     margin-bottom: 5%;
     width:35%;
